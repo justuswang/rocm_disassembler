@@ -1,5 +1,11 @@
 # rocm_disassembler
-Disassembler for hsa code object.
+Disassembler for hsa code object based on [ROCm-CompilerSupport](https://github.com/RadeonOpenCompute/ROCm-CompilerSupport).
+
+## Prerequisite
+comgr from ROCm-CompilerSupport is needed to build and use the disassembler.
+```
+sudo apt install comgr
+```
 
 ## Build
 ```
