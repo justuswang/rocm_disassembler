@@ -193,7 +193,7 @@ void disassemble(const char* elffilename) {
     checkError(status, "Error(%d): create action", status);
     status = amd_comgr_action_info_set_language(action, AMD_COMGR_LANGUAGE_HC);
     checkError(status, "Error(%d): set language", status);
-    status = amd_comgr_action_info_set_isa_name(action, "amdgcn-amd-amdhsa--gfx900");
+    status = amd_comgr_action_info_set_isa_name(action, "amdgcn-amd-amdhsa--gfx906");
     checkError(status, "Error(%d): set isa name", status);
     //status = amd_comgr_action_set_logging(action, true);
     //checkError(status, "Error(%d): set logging", status);
